@@ -1,13 +1,13 @@
 # Brain Tumor Classification with BrainyBot
 
-A deep learning-powered web application that performs **brain tumor classification from MRI images** using **ResNet50**, and provides **personalized medical assistance** via **SerpAPI chatbot**. The app is built with **Tensorflow** for the model, **Streamlit** for the frontend, and integrates a **hospital locator** feature to connect users to nearby medical facilities.
+A deep learning-powered web application that performs **brain tumor classification from MRI images** using **ResNet50**, and provides **personalized medical assistance** via **SerpAPI chatbot**. The app is built with **Tensorflow** for the model, **Streamlit** for the frontend, and integrates **Llama3.2:1b** model for in detailed tumor description.
 
 ## Features
 
 - **Brain Tumor Classification** (Glioma, Meningioma, Pituitary, No Tumor) using ResNet50.
 - **Emergency Assessment** with detailed explanations and recommended actions using Llama3.2:1b.
 - **Nearby Hospital Finder** based on user’s city or area using SerpAPI.
-- **Intuitive Interface** with real-time image upload and classification via Streamlit.
+- **Interactive Interface** with real-time image upload and classification via Streamlit.
 
 ## Workflow
 
@@ -16,8 +16,13 @@ A deep learning-powered web application that performs **brain tumor classificati
 - The model predicts the tumor type and gives a brief information about symptoms and treatment options.
 - An AI chatbot answers user queries and helps find nearby hospitals.
 
+## Tech Stack
+- Frontend: Streamlit
+- DL Model: ResNet50
+- Backend: SerpAPI
+- AI: Llama3.2:1b via Ollama
+
 ## Future Enhancements
 
 - Locate tumor in the image using YOLO
-- Automated alerts to hospitals in extreme emergency cases
-- Save image with the classified tumor in a database like MongoDB
+- Save uploaded image with the classified tumor type in a NoSQL database 
