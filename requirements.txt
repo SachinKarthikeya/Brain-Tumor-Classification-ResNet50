@@ -1,7 +1,0 @@
-streamlit==1.32.1
-tensorflow==2.19.0
-numpy==1.26.4
-matplotlib==3.7.5
-requests==2.32.5
-pillow
-python-dotenv
