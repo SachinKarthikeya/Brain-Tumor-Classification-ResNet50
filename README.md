@@ -18,6 +18,16 @@ A deep learning-powered web application that performs **brain tumor classificati
 - Automatically stores the images along with predictions in the database.
 - An AI chatbot answers user queries and helps find nearby hospitals.
 
+## Versions
+For this project, there are two versions which work separately:
+
+**Version 1**:
+- No MongoDB database integrated
+- Containerized the project using Docker
+**Version 2**:
+- MongoDB database integrated
+- Docker containerization not performed.
+
 ## Tech Stack
 - Frontend: Streamlit
 - DL Model: ResNet50
