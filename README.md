@@ -24,6 +24,7 @@ For this project, there are two versions which work separately:
 **Version 1**:
 - No MongoDB database integrated
 - Containerized the project using Docker
+
 **Version 2**:
 - MongoDB database integrated
 - Docker containerization not performed.
