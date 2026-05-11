@@ -1,12 +1,12 @@
 # 🧠 Brain Tumor Classification with BrainyBot
 
-A deep learning-powered web application that performs **brain tumor classification from MRI images** using **ResNet50**, and provides **personalized medical assistance** via **SerpAPI chatbot**. The app is built with **Tensorflow** for the model, **Streamlit** for the frontend, and integrates **MongoDB** to store prediction records.
+A deep learning-powered web application that performs **brain tumor classification from MRI images** using **ResNet50**, and provides **personalized medical assistance** via **Geoapify Chatbot**. The app is built with **Tensorflow** for the model, **Streamlit** for the frontend, and integrates **MongoDB** to store prediction records.
 
 ## 🚀 Features
 
-- **Brain Tumor Classification** (Glioma, Meningioma, Pituitary, No Tumor) using ResNet50.
+- **Classify Brain Tumors** (Glioma, Meningioma, Pituitary, No Tumor) using ResNet50.
 - **Emergency Assessment** with detailed explanations and recommended actions.
-- **Nearby Hospital Finder** based on user’s city or area using SerpAPI.
+- **Nearby Hospital Finder** based on user’s city or area using Geoapify.
 - **MongoDB** database integration to store predictions for future use.
 - **Interactive Interface** with real-time image upload and classification via Streamlit.
 
@@ -16,7 +16,7 @@ A deep learning-powered web application that performs **brain tumor classificati
 - The image is preprocessed and passed through the trained ResNet50 model.
 - The model predicts the tumor type and gives a brief information about symptoms and treatment options.
 - Automatically stores the images along with predictions in the database.
-- An AI chatbot answers user queries and helps find nearby hospitals.
+- A real-time chatbot answers user queries and helps find nearby hospitals.
 
 ## 📁 Versions
 For this project, there are two versions which work separately:
@@ -32,7 +32,7 @@ For this project, there are two versions which work separately:
 ## 🧰 Tech Stack
 - Frontend: Streamlit
 - DL Model: ResNet50
-- Backend: SerpAPI
+- Backend: Geoapify API
 - Database: MongoDB
 
 ## 📢 Future Enhancements
