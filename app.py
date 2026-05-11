@@ -140,7 +140,8 @@ else:
     st.info("Please upload an MRI image to get started.")    
 
 st.divider()
-st.header("Find Hospitals Near You")
+
+st.header("Nearby Hospital Finder")
 location = st.text_input("Enter your location (city or locality address):")
 
 if location:
@@ -148,6 +149,4 @@ if location:
         hospital_list = search_nearby_hospitals(location)
         for hospital in hospital_list:
             st.markdown("---")
-            st.markdown(f"<h3>{hospital}</h3>", unsafe_allow_html=True)
-    if not hospital_list:
-        st.write("No hospitals found in your area.")
+            st.markdown(hospital, unsafe_allow_html=True)
